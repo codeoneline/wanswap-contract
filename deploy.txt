@@ -1,0 +1,146 @@
+jsw@pc:~/code/codeoneline/wanswap-contract$ npx truffle migrate --network wan179
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'wan179'
+> Network id:      6
+> Block gas limit: 10000000 (0x989680)
+
+
+2_deploy_contracts.js
+=====================
+network = wan179
+from = 0x9da26fc2e1d6ad9fdd46138906b0104ae68a65d8
+
+   Deploying 'WwanToken'
+   ---------------------
+   > transaction hash:    0x7f0eab225160588713d912f8136d6fe963b28783a1bb8548282de186d252c8a3
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x21B1D54E9407A3889307182Dc5578B938FAAB737
+   > block number:        5307547
+   > block timestamp:     1600223316
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.310689216
+   > gas used:            699440 (0xaac30)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0139888 ETH
+
+   Deploying 'WswapToken'
+   ----------------------
+   > transaction hash:    0xa18a7d15a111dee26e5fa456fea591f0bb4f6a1a87fd7c8a55425349632e7c01
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xee36167A46A3039627850e58b83a097a832C4B44
+   > block number:        5307549
+   > block timestamp:     1600223318
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.270217596
+   > gas used:            2023581 (0x1ee09d)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04047162 ETH
+
+   Deploying 'MasterChef'
+   ----------------------
+   > transaction hash:    0xc622938ac179a0bf7233e257473a75a7d6d4f033e372ff650a5245140a2bdaf3
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xC225C2DEe5CB73df0175B17d59A203A70a6D992F
+   > block number:        5307550
+   > block timestamp:     1600223319
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.225181516
+   > gas used:            2251804 (0x225c1c)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04503608 ETH
+
+   Deploying 'Timelock'
+   --------------------
+   > transaction hash:    0x5edf3cb4027951caf73a1e7cba82a0a4d20d2cd16c95f912930638e78c8bdaca
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x74d13884eE8D6CF6468cF72067C91f78dC620840
+   > block number:        5307551
+   > block timestamp:     1600223320
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.189278356
+   > gas used:            1795158 (0x1b6456)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03590316 ETH
+
+
+
+   Deploying 'UniswapV2Factory'
+   ----------------------------
+   > transaction hash:    0x0db3c6f41399c7d79e550e672c9abb94fbc8c27a0273f9deebcb75ab95ec63be
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xcfe3a321c0F636F7C6B6f5976c49430225aa73e9
+   > block number:        5307552
+   > block timestamp:     1600223321
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.125329936
+   > gas used:            3197421 (0x30c9ed)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.06394842 ETH
+
+
+   Deploying 'UniswapV2Router02'
+   -----------------------------
+   > transaction hash:    0x8390f17d962e377825ef1f0a01775193488fc1480fe6d333480eb903c1472293
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x16e2417dAca725BEF8078b90BEfeBADA040F0Cd1
+   > block number:        5307553
+   > block timestamp:     1600223322
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.028961856
+   > gas used:            4818404 (0x4985e4)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09636808 ETH
+
+
+   Deploying 'WswapBar'
+   --------------------
+   > transaction hash:    0x84ffade615cbf2f77ee34d2c97106e0ffdbd70b47cf7b8f7041c21723ffd631f
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xB2a7c784943262a16d5E3E84cc2AbeEa280BE839
+   > block number:        5307554
+   > block timestamp:     1600223323
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999628.002754176
+   > gas used:            1310384 (0x13feb0)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02620768 ETH
+
+
+   Deploying 'WswapMaker'
+   ----------------------
+   > transaction hash:    0xb46543fa351096694843ae5ec25e41765f80dd1593bb7ec267a16af5f270feb2
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xfD8bdf328BEDC73C4DcAF7D3cE2856a2F44442e7
+   > block number:        5307555
+   > block timestamp:     1600223324
+   > account:             0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8
+   > balance:             99999627.975476636
+   > gas used:            1363877 (0x14cfa5)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02727754 ETH
+
+wwan should use dex_wwan: 0x21B1D54E9407A3889307182Dc5578B938FAAB737
+wswap token: 0xee36167A46A3039627850e58b83a097a832C4B44
+master chef: 0xC225C2DEe5CB73df0175B17d59A203A70a6D992F
+Timelock: 0x74d13884eE8D6CF6468cF72067C91f78dC620840
+feeAccount = 0x435b316a70cdb8143d56b3967aacdb6392fd6125
+UniswapV2Factory = 0xcfe3a321c0F636F7C6B6f5976c49430225aa73e9
+UniswapV2Router02 = 0x16e2417dAca725BEF8078b90BEfeBADA040F0Cd1
+WswapBar = 0xB2a7c784943262a16d5E3E84cc2AbeEa280BE839
+WswapMaker = 0xfD8bdf328BEDC73C4DcAF7D3cE2856a2F44442e7
